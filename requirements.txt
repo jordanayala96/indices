@@ -1,7 +1,7 @@
 streamlit
 pandas
 numpy<2.0.0
-xgboost
+xgboost<2.0.0
 shap
 matplotlib
 plotly
