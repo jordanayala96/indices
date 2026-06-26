@@ -11,7 +11,7 @@ import plotly.graph_objects as go
 # ==========================================
 st.set_page_config(
     page_title="Simulador de Capacidad Exportadora",
-    page_icon="🚢",
+    page_icon="💱",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -140,9 +140,10 @@ probabilidad = modelo_xgb.predict_proba(df_input)[0][1] * 100
 # ==========================================
 
 if pagina_actual == "Predicción de exportación":
-    st.title("Simulador de Autoselección Exportadora")
+    st.title("Simulador de Capacidad Exportadora")
     st.markdown(
-        "Texto Pendiente")
+        "Estimado usuario, 
+        Por favor, interactúe con los parámetros de su izquierda.")
     st.markdown("<br>", unsafe_allow_html=True)
 
     # Construir el Gauge Chart (Velocímetro) con Plotly
@@ -178,7 +179,8 @@ if pagina_actual == "Predicción de exportación":
 elif pagina_actual == "Explicabilidad SHAP":
     st.title("Explicabilidad con SHAP Values")
     st.markdown(
-        "Descripción Pendiente".format(
+        "Estimado usuario, 
+        Por favor, interactúe con los parámetros de su izquierda.".format(
             probabilidad))
 
     # Generar Valores SHAP para la predicción actual
@@ -196,6 +198,6 @@ elif pagina_actual == "Explicabilidad SHAP":
 st.markdown("""
 <div style="text-align: center; color: gray; font-size: 12px; margin-top: 50px; border-top: 1px solid #ddd; padding-top: 15px;">
     Encuesta Estructural Empresarial - ENESEM 2024 <br>
-    Texto Pendiente
+    
 </div>
 """, unsafe_allow_html=True)
