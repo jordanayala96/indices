@@ -178,8 +178,7 @@ if pagina_actual == "Predicción de exportación":
 elif pagina_actual == "Explicabilidad SHAP":
     st.title("Explicabilidad con SHAP Values")
     st.markdown(
-        "Estimado usuario, 
-        Por favor, interactúe con los parámetros de su izquierda.".format(
+        "Estimado usuario, Por favor, interactúe con los parámetros de su izquierda.".format(
             probabilidad))
 
     # Generar Valores SHAP para la predicción actual
