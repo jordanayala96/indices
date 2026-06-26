@@ -1,7 +1,8 @@
 streamlit
 pandas
-numpy
+numpy<2.0.0
 xgboost
 shap
 matplotlib
-pltly
+plotly
+scikit-learn
