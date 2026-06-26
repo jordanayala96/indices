@@ -142,8 +142,7 @@ probabilidad = modelo_xgb.predict_proba(df_input)[0][1] * 100
 if pagina_actual == "Predicción de exportación":
     st.title("Simulador de Capacidad Exportadora")
     st.markdown(
-        "Estimado usuario, 
-        Por favor, interactúe con los parámetros de su izquierda.")
+        "Estimado usuario, Por favor, interactúe con los parámetros de su izquierda.")
     st.markdown("<br>", unsafe_allow_html=True)
 
     # Construir el Gauge Chart (Velocímetro) con Plotly
