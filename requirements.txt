@@ -1,8 +1,8 @@
 streamlit
 pandas
 numpy<2.0.0
-xgboost<2.0.0
-shap
+xgboost==1.7.3
+shap==0.44.0
 matplotlib
 plotly
 scikit-learn
